@@ -27,3 +27,9 @@ DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+THEME = '../pelican-svbtle/'
+
+AUTHOR_BIO = 'Développeur Web Python'
+
+GOOGLE_ANALYTICS = 'UA-53293823-1'
