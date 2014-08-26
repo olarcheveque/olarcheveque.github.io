@@ -4,7 +4,39 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Olivier Larchev\xeaque'
 SITENAME = u'Olivier Larchev\xeaque'
+
+I18N_SUBSITES = {
+    'fr': {
+        'SITENAME': SITENAME,
+        },
+    'en': {
+        'SITENAME': SITENAME,
+        },
+}
+
+languages_lookup = {
+    'en': 'English',
+    'fr': 'Français',
+}
+
+
+def lookup_lang_name(lang_code):
+    return languages_lookup[lang_code]
+
+
+def my_ordered_items(dict):
+    items = list(dict.items())
+    # swap first and last using tuple unpacking
+    items[0], items[-1] = items[-1], items[0]
+    return items
+
+JINJA_FILTERS = {
+    'lookup_lang_name': lookup_lang_name,
+    'my_ordered_items': my_ordered_items,
+}
+
 SITEURL = ''
+
 
 PATH = 'content'
 
@@ -27,6 +59,9 @@ DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+PLUGIN_PATHS = ["../pelican-plugins", ]
+PLUGINS = ['i18n_subsites', ]
 
 THEME = '../pelican-svbtle/'
 

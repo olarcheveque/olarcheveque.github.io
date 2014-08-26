@@ -3,10 +3,9 @@ Olivier Larchevêque
 
 :slug: cv
 :authors: Olivier Larchevêque
-:lang: fr
+:lang: en
 
-Développeur Web Python
-
+Web Python developer
 
 Contact
 -------
@@ -18,8 +17,8 @@ CANADA, Montréal
 438-338-1142
 
 
-Expériences professionnelles
-============================
+Work Experience
+===============
 
 * 01/2014 - en cours `W.illi.am/ <http://w.illi.am/>`_ Développeur Web
 
