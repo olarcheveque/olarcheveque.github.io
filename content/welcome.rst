@@ -5,10 +5,10 @@ Welcome
 :slug: welcome
 :authors: Olivier Larchevêque
 :lang: fr
-:summary: This is my fresh new personal website to present some blog posts, and my curriculum vitae.
+:summary: Voici mon nouveau site personnel pour vous présenter quelques articles, et mon  curriculum vitae.
 
 
-This is my fresh new personal website to present some blog posts, and my curriculum vitae.
+Voici mon nouveau site personnel pour vous présenter quelques articles, et mon  curriculum vitae:
 
-* `French CV <{filename}/pages/cv.rst>`_
-* `English CV <{filename}/pages/cv_en.rst>`_
+* `CV en français <{filename}/pages/cv.rst>`_
+* `CV en anglais <{filename}/pages/cv_en.rst>`_
