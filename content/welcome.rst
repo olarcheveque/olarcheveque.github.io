@@ -1,7 +1,7 @@
 Welcome
 #######
 
-:date: 2014-08-30
+:date: 2014-08-29
 :slug: welcome
 :authors: Olivier Larchevêque
 :lang: fr
