@@ -1,5 +1,5 @@
-Welcome
-#######
+Bienvenue
+#########
 
 :date: 2014-08-29
 :slug: welcome
