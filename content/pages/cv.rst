@@ -57,11 +57,13 @@ Connaissances
 
 * Gestion de projets, télétravail
 
-* Python, PHP, (Javascript, HTML, CSS)
+* Python, PHP, Javascript, HTML, CSS
 
-* Django, Drupal, Kohana
+* Django, (Drupal, Kohana, Plone/Zope)
 
 * pip, virtualenv, buildout
+
+* tox, Jenkins, Fabric
   
 * gunicorn, Apache, nginx, supervisor, uwsgi
 
