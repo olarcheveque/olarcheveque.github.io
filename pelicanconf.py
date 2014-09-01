@@ -35,7 +35,7 @@ JINJA_FILTERS = {
     'my_ordered_items': my_ordered_items,
 }
 
-SITEURL = ''
+SITEURL = 'http://olarcheveque.github.io'
 
 
 PATH = 'content'
