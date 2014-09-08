@@ -5,11 +5,16 @@ Centre de Formations de Bourges, DGA
 :slug: cfbs
 :authors: Olivier Larchevêque
 :lang: fr
-:summary: Étude et mise en oeuvre d'une solution voix sur ip
+:summary: Étude et mise en oeuvre d'une solution voix sur IP
 
-*** voip, pabx, réseaux ***
+Étude et mise en oeuvre d'une solution voix sur IP
+--------------------------------------------------
 
 * Installation des terminaux
 * Configuration de l'autocommutateur
 * Test de performance
 * Analyse du trafic
+
+
+*** voip, pabx, réseaux ***
+
