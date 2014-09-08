@@ -6,6 +6,7 @@ usinasite
 :authors: Olivier Larchevêque
 :lang: fr
 :summary: Mandats Django
+:category: job
 
 Backend portails Web : Pharmapar, Biomed2002
 --------------------------------------------

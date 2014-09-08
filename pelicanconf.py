@@ -52,9 +52,6 @@ TRANSLATION_FEED_ATOM = None
 # Blogroll
 LINKS = ()
 
-# Social widget
-SOCIAL = ()
-
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
@@ -63,8 +60,18 @@ DEFAULT_PAGINATION = 5
 PLUGIN_PATHS = ["../pelican-plugins", ]
 PLUGINS = ['i18n_subsites', ]
 
-THEME = '../pelican-svbtle/'
+THEME = '../pelican-cait/'
 
 AUTHOR_BIO = 'Développeur Web Python'
 
 GOOGLE_ANALYTICS = 'UA-53293823-1'
+
+USE_CUSTOM_MENU = True
+CUSTOM_MENUITEMS = (
+    ('CV', 'pages/cv'),
+    ('Job', 'category/job'),
+)
+
+SOCIAL = (
+    ('github-alt', 'https://github.com/olarcheveque'),
+)

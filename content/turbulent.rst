@@ -6,6 +6,7 @@ Turbulent Média Inc
 :authors: Olivier Larchevêque
 :lang: fr
 :summary: Projets backend
+:category: job
 
 Framework de diffusion de contenus multimédia
 ---------------------------------------------

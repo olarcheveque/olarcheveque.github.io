@@ -6,6 +6,7 @@ Centre de Formations de Bourges, DGA
 :authors: Olivier Larchevêque
 :lang: fr
 :summary: Étude et mise en oeuvre d'une solution voix sur IP
+:category: job
 
 Étude et mise en oeuvre d'une solution voix sur IP
 --------------------------------------------------

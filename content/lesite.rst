@@ -6,6 +6,7 @@ Le Site Inc
 :authors: Olivier Larchevêque
 :lang: fr
 :summary: Projets internes et clients de la compagnie Le Site
+:category: job
 
 
 Intranet Le Site

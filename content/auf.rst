@@ -6,6 +6,7 @@ Agence Universitaire de la Francophonie
 :authors: Olivier Larchevêque
 :lang: fr
 :summary: Développement des systèmes d'informations de l'AUF
+:category: job
 
 Système de Gestion des Ressources Humaines
 ------------------------------------------
