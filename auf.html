@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>    Agence Universitaire de la Francophonie
+</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+            <link rel="stylesheet" href="http://olarcheveque.github.io/theme/css/normalize.css">
+        <link href='//fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="http://olarcheveque.github.io/theme/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://olarcheveque.github.io/theme/css/main.css">
+
+    <link rel="stylesheet" href="http://olarcheveque.github.io/theme/css/blog.css">
+    <link rel="stylesheet" href="http://olarcheveque.github.io/theme/css/github.css">
+        <link href="http://olarcheveque.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Olivier Larchevêque Atom Feed" />
+        <script src="http://olarcheveque.github.io/theme/js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="wrapper">
+<header id="sidebar" class="side-shadow">
+    <hgroup id="site-header">
+        <a id="site-title" href="http://olarcheveque.github.io"><h1><i class="icon-coffee"></i> Olivier Larchevêque</h1></a>
+        <p id="site-desc"></p>
+    </hgroup>
+    <nav>
+        <ul id="nav-links">
+                <li><a href="http://olarcheveque.github.io/pages/cv">CV</a></li>
+                <li><a href="http://olarcheveque.github.io/category/job">Job</a></li>
+        </ul>
+    </nav>
+<footer id="site-info">
+    <p>
+        Proudly powered by <a href="http://getpelican.com/" target="pelican">Pelican</a> and <a href="http://python.org/" target="python">Python</a>. Theme by <a href="https://github.com/hdra/pelican-cait" target="github">hndr</a>.
+    </p>
+    <p>
+        Textures by <a href="http://subtlepatterns.com/" target="subtlepatterns">Subtle Pattern</a>. Font Awesome by <a href="http://fortawesome.github.io/Font-Awesome/" target="github">Dave Grandy</a>.
+    </p>
+</footer></header>
+    <div id="post-container">
+        <ol id="post-list">
+            <li>
+                <article class="post-entry">
+                    <header class="entry-header">
+                        <time class="post-time" datetime="2009-09-01T00:00:00" pubdate>
+                            Tue 01 September 2009
+                        </time>
+                        <a href="http://olarcheveque.github.io/auf.html" rel="bookmark"><h1>Agence Universitaire de la Francophonie</h1></a>
+                    </header>
+
+                    <section class="post-content">
+                        <div class="section" id="systeme-de-gestion-des-ressources-humaines">
+<h2>Système de Gestion des Ressources Humaines</h2>
+<p>Ce projet a été développé spécifiquement pour les besoins des ressources humaines de l'AUF. Il est composé de plusieurs modules:</p>
+<ul class="simple">
+<li>RH (personnels, contrats, rémunérations, détachement, devise...)</li>
+<li>DAE : demande d'autorisations d'embauches</li>
+<li>Recrutement : offre d'emplois, soumissions, sélection couplée au site institutionnel</li>
+<li>Rapports : masse salariale, tâches à prévoir...</li>
+</ul>
+<p>Cet outil se base sur un mécanisme de permissions complexe, selon les régions et groupes du personnel mais aussi des workflows. Cet aspect fait l'objet de tests unitaires d'accès.</p>
+<p>Le développement a été incrémental sous forme agile.</p>
+<p><strong>* Django, buildout, git, workflow, permissions, historisation, RH, SAML *</strong></p>
+</div>
+<div class="section" id="evaluation-du-personnel">
+<h2>Évaluation du personnel</h2>
+<p>Outil Django pour gérer les campagnes d'évaluations au sein de l'AUF.</p>
+<p><strong>* Django, buildout, git, SAML *</strong></p>
+</div>
+<div class="section" id="savoirs-en-partage">
+<h2>Savoirs en partage</h2>
+<p>Ce projet est un portail des ressources scientifiques et pédagogiques de l'AUF. Il moissonne plusieurs sites pour centraliser ces informations.</p>
+<p>Il offre un répertoire de chercheurs avec des fonctionnalités pour construire des communautés.</p>
+<p>Ce site est construit en Django, avec le moteur de recherche Sphinx. Les moissonnages utilisent des formats d'échanges standard quand ils existent, comme  OAI.</p>
+<p>[Savoirs en partage](<a class="reference external" href="http://www.savoirsenpartage.auf.org">http://www.savoirsenpartage.auf.org</a>)</p>
+<p><strong>* Django, buildout, Sphinx, OAI, communautés *</strong></p>
+</div>
+<div class="section" id="assistance-informatique">
+<h2>Assistance informatique</h2>
+<p>Ce projet consiste à fournir un moyen aux employés de l'AUF pour rapporter leurs problèmes afin d'établir une base de connaissances.
+Il peuvent rapporter leurs problèmes par courriel ou directement sur le portail.
+Cet outil est un fork de l'Application Jutda.</p>
+<p><strong>* Django, assistance, tracker, courriels *</strong></p>
+</div>
+<div class="section" id="site-institutionnel">
+<h2>Site institutionnel</h2>
+<p>J'ai participé à la refonte du site [institutionnel](<a class="reference external" href="http://auf.org">http://auf.org</a>) de l'AUF. Ce portail se base sur <strong>django-cms</strong> avec plusieurs plugins pour se coupler à nos données de références et nos systèmes d'informations.</p>
+<p><strong>*Django, django-cms, support, maintenance *</strong></p>
+</div>
+<div class="section" id="portail-informatique">
+<h2>Portail informatique</h2>
+<p>Ce projet est un CMS pour présenter l'information relative à l'administration des ressources informatique de l'AUF. Il a été construit avec <strong>Django-cms</strong>. Certains plugins ont été développés pour s'interfacer avec d'autres systèmes d'informations.</p>
+<p><strong>* Django, Django-cms, SAML *</strong></p>
+</div>
+<div class="section" id="semaine-tech">
+<h2>Semaine tech</h2>
+<p>J'ai donné des formations MVC, Django pour les techniciens de l'AUF.</p>
+<p>[Programme](<a class="reference external" href="http://wiki.auf.org/wikiteki/Projet/SemaineTech/2011">http://wiki.auf.org/wikiteki/Projet/SemaineTech/2011</a>)</p>
+<p><strong>* Django, cours, formation, MVC *</strong></p>
+</div>
+<div class="section" id="industrialisation-et-capitalisation">
+<h2>Industrialisation et capitalisation</h2>
+<ul class="simple">
+<li>Création de skeleton pour harmoniser les projets Django</li>
+<li>Statistiques centralisées de chaque application (Piwik)</li>
+<li>Rapports d'erreurs centralisés de chaque application  (Sentry)</li>
+<li>Création de modules Python réutilisées dans les applications (disponible dans un PyPI)</li>
+</ul>
+<p><strong>* Django, Git, PyPI, modules, skeleton, Sentry, Piwik *</strong></p>
+</div>
+<div class="section" id="authentification-centralisee">
+<h2>Authentification centralisée</h2>
+<p>Développement et intégration d'un module Django, pour implanter l’authentification centralisée avec notre fournisseur d'identités en SAML.</p>
+<p><strong>* Django, SAML, Logger *</strong></p>
+</div>
+
+                    </section>
+                    <hr/>
+                    <aside class="post-meta">
+                        <p>Category: <a href="http://olarcheveque.github.io/category/job.html">job</a></p>
+                    </aside>
+                    <hr/>
+                </article>
+            </li>
+        </ol>
+    </div>
+        </div>
+
+<script>
+    var _gaq=[['_setAccount','UA-53293823-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+        <script src="http://olarcheveque.github.io/theme/js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Olivier Larchevêque</title><link href="http://olarcheveque.github.io/en/" rel="alternate"></link><link href="http://olarcheveque.github.io/feeds/olivier-larcheveque.atom.xml" rel="self"></link><id>http://olarcheveque.github.io/en/</id><updated>2014-08-29T00:00:00-04:00</updated><entry><title>Welcome</title><link href="http://olarcheveque.github.io/en/welcome.html" rel="alternate"></link><updated>2014-08-29T00:00:00-04:00</updated><author><name>Olivier Larchevêque</name></author><id>tag:olarcheveque.github.io,2014-08-29:en/welcome.html</id><summary type="html">&lt;p&gt;This is my fresh new personal website to present some blog posts, and my curriculum vitae.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://olarcheveque.github.io/en/../pages/cv.html"&gt;French CV&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://olarcheveque.github.io/en/pages/cv.html"&gt;English CV&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</summary></entry></feed>
